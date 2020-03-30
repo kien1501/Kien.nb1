@@ -9,6 +9,7 @@ public class HomeWork14 {
         long n = sc.nextLong();
         System.out.print("Nhập vào a: ");
         long a = sc.nextLong();
+        long t =0;
         String str = "";
         String str1 = "";
         long k = 0;
@@ -16,8 +17,8 @@ public class HomeWork14 {
             str += n;
             str1 += str + " + ";
             k = Long.parseLong(str);
-            k += k;
+            t+= k;
         }
-        System.out.println("Tổng " + str1.substring(0,  str1.length() - 3) +" = " +k);
+        System.out.println("Tổng " + str1.substring(0,  str1.length() - 3) +" = " +t);
     }
 }
